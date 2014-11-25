@@ -5,10 +5,11 @@ img {width: 100%;}
 
 $color: white;
 $font: Helvetica, Arial, "Lucida Grande", sans-serif; 
-$padding: 10px;
+$padding: 15px;
 $margin: 10px 0 10px 0;
 $border-radius: 10px;
-
+$pad2: 8px 0 8px 0;
+    
 header {
     h1 {color:$color; font-family:$font; background-color:transparent; padding: 0;}
 }
@@ -18,16 +19,30 @@ h2 {color:$color; font-family:$font; font-size:12px;}
 ul {color:$color; font-family:$font; border-radius: $border-radius;
 }
 
-nav {background-color: #2980B9; padding: $padding;
+nav {background-color: #2980B9; padding: $pad2;
 ul {list-style:none;  overflow: auto; 
 li {float: left; }
 }
-a {color: $color; text-decoration: none; padding: $padding; display: block; }
+a {color: $color; text-decoration: none; padding: 0 10px 0 10px; display: block; }
 border-radius: $border-radius; 
 }
 
+section { padding: $pad2; 
+    h1{font-size:2em;}
+}
+
 article {background-color: #2980B9; padding: $padding; color: $color; font-family: $font;
-ul {list-style: disc; padding: 20px;}
+ul {list-style: disc; padding: $padding;}
     border-radius: $border-radius;
     margin:$margin;
+header { h2{font-size: 2em; padding: $pad2;} h3{font-size:1.5em; padding: $pad2;}}
+p {padding: $pad2;}
+}
+
+ol {padding: $padding;}
+
+footer {
+h1 {font-size: 1em; background-color: transparent; color: $color; padding: 0;}
+    nav { margin: 0; padding: 0; margin: 0;
+      background-color: transparent; }
 }
