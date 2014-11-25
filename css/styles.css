@@ -1,5 +1,8 @@
 body {
   width: 640px;
-  margin: 0 auto; }
+  margin: auto; }
+
+img {
+  width: 100%; }
 
 /*# sourceMappingURL=styles.css.map */
