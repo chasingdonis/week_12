@@ -1,10 +1,17 @@
-body {width: 640px; margin: auto;}
+body {width: 640px; margin: auto; background-color: #2C3E50;}
 img {width: 100%;}
 
-$color: red;
+$color: white;
 $font: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-
 
 h1 {color:$color; font-family:$font;}
 h2 {color:$color; font-family:$font;}
-h3 {color:$color; font-family:$font;}
+ul {color:$color; font-family:$font;}
+
+nav {background-color: #2980B9;
+ul {list-style:none;}
+}
+
+article {background-color: #2980B9;
+url {list-style: disc;}
+}

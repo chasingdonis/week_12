@@ -1,20 +1,31 @@
 body {
   width: 640px;
-  margin: auto; }
+  margin: auto;
+  background-color: #2C3E50; }
 
 img {
   width: 100%; }
 
 h1 {
-  color: red;
+  color: white;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
 
 h2 {
-  color: red;
+  color: white;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
 
-h3 {
-  color: red;
+ul {
+  color: white;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
+
+nav {
+  background-color: #2980B9; }
+  nav ul {
+    list-style: none; }
+
+article {
+  background-color: #2980B9; }
+  article url {
+    list-style: disc; }
 
 /*# sourceMappingURL=styles.css.map */
