@@ -10,20 +10,24 @@ $margin: 10px 0 10px 0;
 $border-radius: 10px;
 
 header {
-    h1 {color:$color; font-family:$font; background-color:transparent;}
+    h1 {color:$color; font-family:$font; background-color:transparent; padding: 0;}
 }
-h1 {color: #E74C3C; background-color: white; margin: $margin; padding: $padding; border-radius: $border-radius;}
+
+h1 {color: #E74C3C; background-color: white; margin: $margin; padding: $padding; border-radius: $border-radius; font-family:$font}
 h2 {color:$color; font-family:$font; font-size:12px;}
 ul {color:$color; font-family:$font; border-radius: $border-radius;
 }
 
-
 nav {background-color: #2980B9; padding: $padding;
-ul {list-style:none; color: $color;}
+ul {list-style:none;  overflow: auto;
+li {float: left;}
+}
+    a {color: $color; text-decoration: none; padding: $padding;}
 border-radius: $border-radius;
 }
 
 article {background-color: #2980B9; padding: $padding;
 ul {list-style: disc; padding: 20px;}
     border-radius: $border-radius;
+    margin:$margin;
 }
