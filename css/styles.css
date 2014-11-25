@@ -17,6 +17,10 @@ header h1 {
   font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
   background-color: transparent;
   padding: 0; }
+header nav {
+  margin-top: 10px; }
+  header nav li {
+    display: inline; }
 
 h1 {
   color: #E74C3C;
@@ -49,7 +53,7 @@ nav {
     color: white;
     text-decoration: none;
     padding: 0 10px 0 10px;
-    display: block; }
+    display: inline; }
 
 section {
   padding: 8px 0 8px 0; }

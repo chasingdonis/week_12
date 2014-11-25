@@ -12,6 +12,8 @@ $pad2: 8px 0 8px 0;
     
 header {
     h1 {color:$color; font-family:$font; background-color:transparent; padding: 0;}
+    nav {margin-top: 10px;
+	li {display: inline;}}
 }
 
 h1 {color: #E74C3C; background-color: white; margin: $margin; padding: $padding; border-radius: $border-radius; font-family:$font}
@@ -21,9 +23,9 @@ ul {color:$color; font-family:$font; border-radius: $border-radius;
 
 nav {background-color: #2980B9; padding: $pad2;
 ul {list-style:none;  overflow: auto; 
-li {float: left; }
+li {float: left;}
 }
-a {color: $color; text-decoration: none; padding: 0 10px 0 10px; display: block; }
+a {color: $color; text-decoration: none; padding: 0 10px 0 10px; display: inline; }
 border-radius: $border-radius; 
 }
 
