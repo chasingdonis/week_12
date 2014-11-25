@@ -48,11 +48,14 @@ nav {
   nav a {
     color: white;
     text-decoration: none;
-    padding: 10px; }
+    padding: 10px;
+    display: block; }
 
 article {
   background-color: #2980B9;
   padding: 10px;
+  color: white;
+  font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
   border-radius: 10px;
   margin: 10px 0 10px 0; }
   article ul {
