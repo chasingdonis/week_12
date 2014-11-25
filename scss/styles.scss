@@ -1,19 +1,29 @@
 @import "reset";
+@import "body";
 
-body {width: 640px; margin: auto; background-color: #2C3E50;}
 img {width: 100%;}
 
 $color: white;
-$font: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+$font: Helvetica, Arial, "Lucida Grande", sans-serif; 
+$padding: 10px;
+$margin: 10px 0 10px 0;
+$border-radius: 10px;
 
-h1 {color:$color; font-family:$font;}
-h2 {color:$color; font-family:$font;}
-ul {color:$color; font-family:$font;}
-
-nav {background-color: #2980B9;
-ul {list-style:none;}
+header {
+    h1 {color:$color; font-family:$font; background-color:transparent;}
+}
+h1 {color: #E74C3C; background-color: white; margin: $margin; padding: $padding; border-radius: $border-radius;}
+h2 {color:$color; font-family:$font; font-size:12px;}
+ul {color:$color; font-family:$font; border-radius: $border-radius;
 }
 
-article {background-color: #2980B9;
-url {list-style: disc;}
+
+nav {background-color: #2980B9; padding: $padding;
+ul {list-style:none; color: $color;}
+border-radius: $border-radius;
+}
+
+article {background-color: #2980B9; padding: $padding;
+ul {list-style: disc; padding: 20px;}
+    border-radius: $border-radius;
 }

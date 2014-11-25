@@ -5,31 +5,49 @@
 body {
   width: 640px;
   margin: auto;
-  background-color: #2C3E50; }
+  background-color: #2C3E50;
+  font-size: 12px;
+  line-height: 2em; }
 
 img {
   width: 100%; }
 
-h1 {
+header h1 {
   color: white;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
+  font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
+  background-color: transparent; }
+
+h1 {
+  color: #E74C3C;
+  background-color: white;
+  margin: 10px 0 10px 0;
+  padding: 10px;
+  border-radius: 10px; }
 
 h2 {
   color: white;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
+  font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 12px; }
 
 ul {
   color: white;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
+  font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
+  border-radius: 10px; }
 
 nav {
-  background-color: #2980B9; }
+  background-color: #2980B9;
+  padding: 10px;
+  border-radius: 10px; }
   nav ul {
-    list-style: none; }
+    list-style: none;
+    color: white; }
 
 article {
-  background-color: #2980B9; }
-  article url {
-    list-style: disc; }
+  background-color: #2980B9;
+  padding: 10px;
+  border-radius: 10px; }
+  article ul {
+    list-style: disc;
+    padding: 20px; }
 
 /*# sourceMappingURL=styles.css.map */
