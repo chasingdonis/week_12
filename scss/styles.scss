@@ -1,2 +1,10 @@
 body {width: 640px; margin: auto;}
 img {width: 100%;}
+
+$color: red;
+$font: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+
+
+h1 {color:$color; font-family:$font;}
+h2 {color:$color; font-family:$font;}
+h3 {color:$color; font-family:$font;}
